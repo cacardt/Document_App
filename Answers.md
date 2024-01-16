@@ -16,7 +16,7 @@ Exercice 2 :
 1) Cmd + R: Ce raccourci clavier est utilisé pour lancer la compilation et l'exécution de votre projet dans Xcode. Il démarre votre application sur le simulateur ou l'appareil iOS connecté actuellement. Cela permet de tester rapidement les modifications apportées à votre code.
 2) 
 Cmd + Shift + O: Le raccourci "Cmd + Shift + O" dans Xcode sert à ouvrir rapidement un fichier ou une classe spécifique dans votre projet. Il affiche une boîte de dialogue de recherche qui vous permet de trouver rapidement le fichier que vous recherchez en tapant son nom. Cela vous fait gagner du temps lors de la navigation et de l'édition de fichiers dans un projet Xcode.
-3
+3)
 Raccourci pour indenter le code automatiquement: Le raccourci pour indenter le code automatiquement dans Xcode est "Cmd + I", clavier Windows : Control + I. Lorsque vous avez sélectionné du code ou que vous êtes à l'intérieur d'un fichier source, vous pouvez utiliser cette combinaison de touches pour réorganiser et aligner correctement le code, ce qui améliore sa lisibilité et sa structure.
-4
+4)
 Raccourci pour commenter la sélection: Le raccourci pour commenter la sélection dans Xcode est "Cmd + /". Lorsque vous avez du code sélectionné, cette combinaison de touches ajoutera des commentaires de ligne "//" au début de chaque ligne sélectionnée, ou supprimera les commentaires s'ils sont déjà présents. Cela permet de commenter rapidement du code pour des explications ou de le décommenter.
