@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBB0B5BC2B56DE6400FA3AC8 /* DocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */; };
 		D9DFEAD42B56D00C00A5808E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEAD32B56D00C00A5808E /* AppDelegate.swift */; };
 		D9DFEAD62B56D00C00A5808E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEAD52B56D00C00A5808E /* SceneDelegate.swift */; };
 		D9DFEAD82B56D00C00A5808E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEAD72B56D00C00A5808E /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewController.swift; sourceTree = "<group>"; };
 		D9DFEAD02B56D00C00A5808E /* Document_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Document_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DFEAD32B56D00C00A5808E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9DFEAD52B56D00C00A5808E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				D9DFEAD52B56D00C00A5808E /* SceneDelegate.swift */,
 				D9DFEAD72B56D00C00A5808E /* ViewController.swift */,
 				D9DFEAD92B56D00C00A5808E /* Main.storyboard */,
+				CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */,
 				D9DFEADC2B56D00E00A5808E /* Assets.xcassets */,
 				D9DFEADE2B56D00E00A5808E /* LaunchScreen.storyboard */,
 				D9DFEAE12B56D00E00A5808E /* Info.plist */,
@@ -235,6 +238,7 @@
 			files = (
 				D9DFEAD82B56D00C00A5808E /* ViewController.swift in Sources */,
 				D9DFEAD42B56D00C00A5808E /* AppDelegate.swift in Sources */,
+				CBB0B5BC2B56DE6400FA3AC8 /* DocumentTableViewController.swift in Sources */,
 				D9DFEAD62B56D00C00A5808E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
