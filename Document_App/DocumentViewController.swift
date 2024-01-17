@@ -7,15 +7,27 @@
 
 import UIKit
 
-class DocumentViewController: UIViewController {
+class Do: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    var imageName: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let unwrappedimageName = imageName {
+            if let unwrappedImageView = imageView {
+                unwrappedImageView.image = UIImage(named: unwrappedimageName)
+            }
+            else {
+                print("erreur")
+            }
+            
+        }
 
-        // Do any additional setup after loading the view.
     }
     
 
+    
     /*
     // MARK: - Navigation
 

@@ -3,11 +3,12 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Document Table View Controller-->
+        <!--Liste des documents-->
         <scene sceneID="UFA-dZ-N9C">
             <objects>
                 <tableViewController id="SwZ-Rh-eDi" customClass="DocumentTableViewController" customModule="Document_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +47,19 @@
                             <outlet property="delegate" destination="SwZ-Rh-eDi" id="ZGb-el-QGm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gk7-QT-X5Y"/>
+                    <navigationItem key="navigationItem" title="Liste des documents" id="gk7-QT-X5Y">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="ZaA-xL-VeD">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ysY-BH-TrR">
+                                <rect key="frame" x="287" y="4.6666666666666679" width="90" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Importer"/>
+                            </button>
+                            <connections>
+                                <action selector="name:" destination="SwZ-Rh-eDi" id="JhM-py-NLY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M7b-V5-IZG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,10 +81,41 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="481-oT-oTF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-411.4503816793893" y="20.422535211267608"/>
+            <point key="canvasLocation" x="1698" y="31"/>
+        </scene>
+        <!--Document View Controller-->
+        <scene sceneID="1lZ-HU-mwD">
+            <objects>
+                <viewController id="TSL-dd-rxj" customClass="DocumentViewController" customModule="Document_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QqE-rM-I5T">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="luffy-age.webp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-DN-KJA">
+                                <rect key="frame" x="0.0" y="82" width="393" height="715"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="S5d-0S-Kqi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QuI-DN-KJA" firstAttribute="bottom" secondItem="S5d-0S-Kqi" secondAttribute="bottom" id="4Sc-1l-1PB"/>
+                            <constraint firstItem="QuI-DN-KJA" firstAttribute="leading" secondItem="S5d-0S-Kqi" secondAttribute="leading" id="EYD-6r-FOM"/>
+                            <constraint firstItem="QuI-DN-KJA" firstAttribute="centerX" secondItem="QqE-rM-I5T" secondAttribute="centerX" id="ZsY-ps-DzQ"/>
+                            <constraint firstItem="QuI-DN-KJA" firstAttribute="top" secondItem="S5d-0S-Kqi" secondAttribute="top" id="tIT-Ag-WPa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bHT-Hx-f3e"/>
+                    <connections>
+                        <outlet property="imageView" destination="QuI-DN-KJA" id="Z13-BT-M92"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CsO-Dn-oT9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671" y="20"/>
         </scene>
     </scenes>
     <resources>
+        <image name="luffy-age.webp.jpg" width="2083.464599609375" height="1136.69287109375"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

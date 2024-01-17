@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB9EABA72B57C457002C7B25 /* luffy-age.webp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9EABA62B57C457002C7B25 /* luffy-age.webp.jpeg */; };
+		CB9EABA92B57CCFF002C7B25 /* luffy-age.webp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9EABA82B57CCFF002C7B25 /* luffy-age.webp.jpg */; };
+		CBA307D42B57D5DE00551A8B /* kagami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBA307D32B57D5DE00551A8B /* kagami.jpg */; };
+		CBA307D82B57D69C00551A8B /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA307D72B57D69C00551A8B /* DocumentViewController.swift */; };
+		CBA307DA2B580A5B00551A8B /* AxelBlaze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBA307D92B580A5B00551A8B /* AxelBlaze.jpg */; };
 		CBB0B5BC2B56DE6400FA3AC8 /* DocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */; };
 		D9DFEAD42B56D00C00A5808E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEAD32B56D00C00A5808E /* AppDelegate.swift */; };
 		D9DFEAD62B56D00C00A5808E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEAD52B56D00C00A5808E /* SceneDelegate.swift */; };
@@ -35,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB9EABA62B57C457002C7B25 /* luffy-age.webp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luffy-age.webp.jpeg"; sourceTree = "<group>"; };
+		CB9EABA82B57CCFF002C7B25 /* luffy-age.webp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luffy-age.webp.jpg"; sourceTree = "<group>"; };
+		CBA307D32B57D5DE00551A8B /* kagami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kagami.jpg; sourceTree = "<group>"; };
+		CBA307D72B57D69C00551A8B /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		CBA307D92B580A5B00551A8B /* AxelBlaze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AxelBlaze.jpg; sourceTree = "<group>"; };
 		CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewController.swift; sourceTree = "<group>"; };
 		D9DFEAD02B56D00C00A5808E /* Document_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Document_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DFEAD32B56D00C00A5808E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +83,9 @@
 		CB9EABA52B57C40E002C7B25 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				CB9EABA62B57C457002C7B25 /* luffy-age.webp.jpeg */,
+				CBA307D92B580A5B00551A8B /* AxelBlaze.jpg */,
+				CBA307D32B57D5DE00551A8B /* kagami.jpg */,
+				CB9EABA82B57CCFF002C7B25 /* luffy-age.webp.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -109,6 +117,7 @@
 				D9DFEAD72B56D00C00A5808E /* ViewController.swift */,
 				D9DFEAD92B56D00C00A5808E /* Main.storyboard */,
 				CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */,
+				CBA307D72B57D69C00551A8B /* DocumentViewController.swift */,
 				D9DFEADC2B56D00E00A5808E /* Assets.xcassets */,
 				D9DFEADE2B56D00E00A5808E /* LaunchScreen.storyboard */,
 				D9DFEAE12B56D00E00A5808E /* Info.plist */,
@@ -221,9 +230,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DFEAE02B56D00E00A5808E /* LaunchScreen.storyboard in Resources */,
+				CB9EABA92B57CCFF002C7B25 /* luffy-age.webp.jpg in Resources */,
+				CBA307DA2B580A5B00551A8B /* AxelBlaze.jpg in Resources */,
+				CBA307D42B57D5DE00551A8B /* kagami.jpg in Resources */,
 				D9DFEADD2B56D00E00A5808E /* Assets.xcassets in Resources */,
 				D9DFEADB2B56D00C00A5808E /* Main.storyboard in Resources */,
-				CB9EABA72B57C457002C7B25 /* luffy-age.webp.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA307D82B57D69C00551A8B /* DocumentViewController.swift in Sources */,
 				D9DFEAD82B56D00C00A5808E /* ViewController.swift in Sources */,
 				D9DFEAD42B56D00C00A5808E /* AppDelegate.swift in Sources */,
 				CBB0B5BC2B56DE6400FA3AC8 /* DocumentTableViewController.swift in Sources */,
