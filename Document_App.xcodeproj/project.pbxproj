@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB9EABA72B57C457002C7B25 /* luffy-age.webp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9EABA62B57C457002C7B25 /* luffy-age.webp.jpeg */; };
 		CBB0B5BC2B56DE6400FA3AC8 /* DocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */; };
 		D9DFEAD42B56D00C00A5808E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEAD32B56D00C00A5808E /* AppDelegate.swift */; };
 		D9DFEAD62B56D00C00A5808E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEAD52B56D00C00A5808E /* SceneDelegate.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB9EABA62B57C457002C7B25 /* luffy-age.webp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luffy-age.webp.jpeg"; sourceTree = "<group>"; };
 		CBB0B5BB2B56DE6400FA3AC8 /* DocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewController.swift; sourceTree = "<group>"; };
 		D9DFEAD02B56D00C00A5808E /* Document_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Document_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DFEAD32B56D00C00A5808E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB9EABA52B57C40E002C7B25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CB9EABA62B57C457002C7B25 /* luffy-age.webp.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		D9DFEAC72B56D00C00A5808E = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 		D9DFEAD22B56D00C00A5808E /* Document_App */ = {
 			isa = PBXGroup;
 			children = (
+				CB9EABA52B57C40E002C7B25 /* Images */,
 				D9DFEAD32B56D00C00A5808E /* AppDelegate.swift */,
 				D9DFEAD52B56D00C00A5808E /* SceneDelegate.swift */,
 				D9DFEAD72B56D00C00A5808E /* ViewController.swift */,
@@ -212,6 +223,7 @@
 				D9DFEAE02B56D00E00A5808E /* LaunchScreen.storyboard in Resources */,
 				D9DFEADD2B56D00E00A5808E /* Assets.xcassets in Resources */,
 				D9DFEADB2B56D00C00A5808E /* Main.storyboard in Resources */,
+				CB9EABA72B57C457002C7B25 /* luffy-age.webp.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

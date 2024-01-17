@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SwZ-Rh-eDi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wQH-m0-Hyt">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
@@ -46,10 +46,29 @@
                             <outlet property="delegate" destination="SwZ-Rh-eDi" id="ZGb-el-QGm"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="gk7-QT-X5Y"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M7b-V5-IZG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-410" y="21"/>
+            <point key="canvasLocation" x="515.26717557251902" y="20.422535211267608"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="S0a-Eu-QL8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wQH-m0-Hyt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m6L-cd-TLP">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SwZ-Rh-eDi" kind="relationship" relationship="rootViewController" id="dJ3-Sl-EgK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="481-oT-oTF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-411.4503816793893" y="20.422535211267608"/>
         </scene>
     </scenes>
     <resources>
