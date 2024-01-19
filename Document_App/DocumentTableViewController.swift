@@ -8,10 +8,11 @@
 import UIKit
 import QuickLook
 
-class DocumentTableViewController: UITableViewController, UIDocumentPickerDelegate {
+class DocumentTableViewController: UITableViewController, UIDocumentPickerDelegate, UISearchBarDelegate {
     var documentList = [DocumentFile]()
     var bundledDocuments = [DocumentFile]()
     var userAddedDocuments = [DocumentFile]()
+    let searchBar = UISearchBar()
     enum Section: Int {
         case Import
         case Bundle
@@ -22,7 +23,8 @@ class DocumentTableViewController: UITableViewController, UIDocumentPickerDelega
         super.viewDidLoad()
         bundledDocuments = listFileInBundle()
         userAddedDocuments = getFileToDocumentDirectory()
-        documentList = bundledDocuments + userAddedDocuments;        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(openDocumentPicker))
+        documentList = bundledDocuments + userAddedDocuments;      
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(openDocumentPicker))
         
         
         
@@ -247,7 +249,6 @@ class DocumentTableViewController: UITableViewController, UIDocumentPickerDelega
             return nil
         }
     }
-
 
 
     // Todo
